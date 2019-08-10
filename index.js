@@ -102,7 +102,7 @@ app.get('/', function (req, res) {
 });
 
 /////////// portal /////////////////////////////////////////
-app.use(express.static(__dirname + '/public/admin'));
+app.use(express.static(__dirname + '/public'));
 let portal = function (req, res, next) {
     res.sendFile(path.join(__dirname + '/public/index.html'));
 };
