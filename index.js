@@ -101,6 +101,15 @@ app.get('/', function (req, res) {
     res.status(200).send('parseServer resource. For authorised persons only!');
 });
 
+/////////// portal /////////////////////////////////////////
+app.use(express.static(__dirname + '/public/admin'));
+let portal = function (req, res, next) {
+    res.sendFile(path.join(__dirname + '/public/index.html'));
+};
+app.get('/', portal);
+/////////////////////////////////////////////////////////////////
+
+
 app.use('/dashboard', dashboard);
 
 app.use('/parseServer', parseServer, function (req, res, next) {
