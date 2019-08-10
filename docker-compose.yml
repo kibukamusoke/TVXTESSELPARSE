@@ -1,0 +1,61 @@
+hparse-server:
+  #build: .
+  image: kibukamusoke/parseServer
+  ports:
+    - "1337:1337"
+  environment:
+    PORT: 1337
+    MONGODB_URI: "mongodb://ccls:extreme123770a40z1@172.17.0.1:27092/cclsbg"
+    APP_ID: "cclsbg447"
+    APP_NAME: "Jeff Parse"
+    MASTER_KEY: "cclsbg_554312345"
+    PARSE_MOUNT: "/cclsbg"
+    SERVER_URL: "http://10.10.2.44:8049"
+    DASHBOARD_SERVER_URL: "http://10.10.2.44:8049"
+    FIREBASE_SENDER_ID: "705414330916"
+    FIREBASE_API_KEY: "AIzaSyBw-rHonop599pkIlC6HMlrnDrvecdDPQk"
+    IOS_BUNDLE_ID: "com.mobilemoney.cun365"
+    IOS_P12_KEY_PASSWORD: ""
+    FACEBOOK_ACCOUNTKIT_APP_IDS: "521430441610082"
+
+    PRODUCTION: "true" #production mode true or false
+
+    ADMINUSERNAME: "admin"
+    ADMINPASSWORD: "Money123@66123"
+
+    LIVEQUERY_CLASSES: "_User"
+
+    MMAPI: "http://172.17.0.1:8090"
+    MMTOKEN: "ebRZtwBSrl0s0aGkNGyvV82WfDLyBElA"
+
+    STRIPE_SECRET_KEY: "sk_test_P6tSaH27ILBM4VeEWzBsZKp5"
+
+    HESK_TOKEN: "eae01a07084377afdd42281f753bc2ca"
+    HESK_URL: "http://172.17.0.1:8003"
+
+  volumes:
+    - ./files:/usr/src/app/files
+    - ./public:/usr/src/app/public
+    - ./cloud:/usr/src/app/cloud
+
+
+mongo:
+  image: mongo:latest
+  ports:
+    - "27092:27017"
+  volumes_from:
+    - mongo-data
+  environment:
+    MONGODB_USER: "cclsbg"
+    MONGODB_DATABASE: "cclsbg"
+    MONGODB_PASS: "cclsbg123770a40z1"
+
+#  command: "--smallfiles --logpath=/dev/null --setParameter failIndexKeyTooLong=false --rest --auth"
+  command: "--smallfiles --logpath=/dev/null --setParameter failIndexKeyTooLong=false --auth"
+# ref. http://www.diogogmt.com/running-mongodb-with-docker-and-compose/
+
+mongo-data:
+  image: mongo
+  volumes:
+    - ./db-data:/data/db
+  command: "--break-mongo"

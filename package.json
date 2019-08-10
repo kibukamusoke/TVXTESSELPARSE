@@ -1,0 +1,31 @@
+{
+  "name": "mmcoin_parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parse/fs-files-adapter": "^1.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonfile": "^4.0.0",
+    "mjml": "^4.1.2",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "nodemailer": "^4.6.8",
+    "parse-dashboard": "1.1.0",
+    "parse-server": "^2.8.2",
+    "parse-server-gcs-adapter": "^1.1.2",
+    "parse-server-onesignal-push-adapter": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "stripe": "^6.7.0",
+    "telegraf": "^3.27.1"
+  }
+}

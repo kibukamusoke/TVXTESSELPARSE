@@ -1,0 +1,55 @@
+{"level":"info","message":"Create new client: 6ad6c5aa-dfdc-49aa-b96b-0af896479423","timestamp":"2019-08-10T10:53:06.359Z"}
+{"level":"info","message":"Client disconnect: 6ad6c5aa-dfdc-49aa-b96b-0af896479423","timestamp":"2019-08-10T10:53:06.704Z"}
+{"level":"info","message":"Create new client: a7a15bf9-8315-439c-a6c8-9cde645195ee","timestamp":"2019-08-10T10:55:29.730Z"}
+{"level":"info","message":"Client disconnect: a7a15bf9-8315-439c-a6c8-9cde645195ee","timestamp":"2019-08-10T11:27:39.505Z"}
+{"error":{"code":255,"message":"Field messages exists, cannot update."},"level":"error","message":"Error generating response. ParseError { code: 255, message: 'Field messages exists, cannot update.' }","timestamp":"2019-08-10T11:28:49.540Z"}
+{"code":255,"message":"Field messages exists, cannot update.","level":"error","timestamp":"2019-08-10T11:28:49.543Z"}
+{"level":"info","message":"Create new client: 61f5e10d-2931-4004-9cea-ff104c9c1086","timestamp":"2019-08-10T11:29:52.321Z"}
+{"level":"info","message":"Client disconnect: 61f5e10d-2931-4004-9cea-ff104c9c1086","timestamp":"2019-08-10T11:30:58.556Z"}
+{"level":"info","message":"Create new client: b3066630-a9d7-4841-a14b-7f301d63ae64","timestamp":"2019-08-10T11:32:51.993Z"}
+{"level":"info","message":"Client disconnect: b3066630-a9d7-4841-a14b-7f301d63ae64","timestamp":"2019-08-10T11:33:44.948Z"}
+{"level":"info","message":"Create new client: a2399afe-1133-4863-ae72-359711464b98","timestamp":"2019-08-10T11:35:40.269Z"}
+{"level":"info","message":"Client disconnect: a2399afe-1133-4863-ae72-359711464b98","timestamp":"2019-08-10T11:38:08.884Z"}
+{"level":"info","message":"Create new client: 68fd4068-7488-40ff-aea2-8758d7241ebe","timestamp":"2019-08-10T11:40:06.287Z"}
+{"level":"info","message":"Client disconnect: 68fd4068-7488-40ff-aea2-8758d7241ebe","timestamp":"2019-08-10T11:49:35.506Z"}
+{"level":"info","message":"Create new client: 891b1062-5ebb-4241-8ac4-16e759d2bfc4","timestamp":"2019-08-10T11:57:30.917Z"}
+{"level":"info","message":"Client disconnect: 891b1062-5ebb-4241-8ac4-16e759d2bfc4","timestamp":"2019-08-10T11:59:40.887Z"}
+{"level":"info","message":"Create new client: b5937f3d-a945-4d1d-a515-0c419ea7a271","timestamp":"2019-08-10T12:04:13.029Z"}
+{"level":"info","message":"Client disconnect: b5937f3d-a945-4d1d-a515-0c419ea7a271","timestamp":"2019-08-10T12:08:37.801Z"}
+{"level":"info","message":"Create new client: 84976fa1-684c-44de-9946-590a3daf613a","timestamp":"2019-08-10T12:10:35.012Z"}
+{"level":"info","message":"Client disconnect: 84976fa1-684c-44de-9946-590a3daf613a","timestamp":"2019-08-10T12:16:46.161Z"}
+{"level":"info","message":"Create new client: af7a3e09-2e17-4b7d-9d03-6b94e0bdfdb0","timestamp":"2019-08-10T12:18:54.088Z"}
+{"level":"info","message":"Create new client: 1f9642b0-3234-424e-8b91-b46bd8d0cf4e","timestamp":"2019-08-10T12:26:49.668Z"}
+{"level":"info","message":"Client disconnect: 1f9642b0-3234-424e-8b91-b46bd8d0cf4e","timestamp":"2019-08-10T12:27:57.018Z"}
+{"level":"info","message":"Create new client: 83154f3c-5b28-4cee-a86c-3919f4f63f3f","timestamp":"2019-08-10T12:27:58.188Z"}
+{"level":"info","message":"Client disconnect: 83154f3c-5b28-4cee-a86c-3919f4f63f3f","timestamp":"2019-08-10T12:28:16.173Z"}
+{"level":"info","message":"Create new client: 7b17570a-c31f-4877-bf98-f684edfd6ce4","timestamp":"2019-08-10T12:28:16.854Z"}
+{"level":"info","message":"Client disconnect: 7b17570a-c31f-4877-bf98-f684edfd6ce4","timestamp":"2019-08-10T12:29:10.793Z"}
+{"level":"info","message":"Create new client: 913ccde8-db04-4d94-b862-25ae04764059","timestamp":"2019-08-10T12:29:11.855Z"}
+{"level":"info","message":"Client disconnect: 913ccde8-db04-4d94-b862-25ae04764059","timestamp":"2019-08-10T12:30:14.629Z"}
+{"level":"info","message":"Create new client: ebb7a059-5e5e-4470-bc8d-09541f953952","timestamp":"2019-08-10T12:30:15.918Z"}
+{"level":"info","message":"Client disconnect: ebb7a059-5e5e-4470-bc8d-09541f953952","timestamp":"2019-08-10T12:30:38.683Z"}
+{"level":"info","message":"Create new client: cf4bed42-e3a9-4111-bea1-e5f870c1c02e","timestamp":"2019-08-10T12:30:39.670Z"}
+{"level":"info","message":"Client disconnect: cf4bed42-e3a9-4111-bea1-e5f870c1c02e","timestamp":"2019-08-10T12:30:56.970Z"}
+{"level":"info","message":"Create new client: 60350570-d928-4605-8361-fe71358572ff","timestamp":"2019-08-10T12:30:57.896Z"}
+{"level":"info","message":"Client disconnect: 60350570-d928-4605-8361-fe71358572ff","timestamp":"2019-08-10T12:31:51.882Z"}
+{"level":"info","message":"Create new client: d7bcc6ca-8838-419b-b372-84b664547ce6","timestamp":"2019-08-10T12:31:53.027Z"}
+{"level":"info","message":"Client disconnect: d7bcc6ca-8838-419b-b372-84b664547ce6","timestamp":"2019-08-10T12:32:39.825Z"}
+{"level":"info","message":"Create new client: 5b3c9408-d124-4241-93a7-b7bc00b75aa4","timestamp":"2019-08-10T12:32:41.168Z"}
+{"level":"info","message":"Client disconnect: 5b3c9408-d124-4241-93a7-b7bc00b75aa4","timestamp":"2019-08-10T12:33:45.876Z"}
+{"level":"info","message":"Create new client: 0987da7d-74b0-4d04-b9dc-628a4db82661","timestamp":"2019-08-10T12:33:46.586Z"}
+{"level":"info","message":"Client disconnect: 0987da7d-74b0-4d04-b9dc-628a4db82661","timestamp":"2019-08-10T12:34:02.826Z"}
+{"level":"info","message":"Create new client: c280ddd6-4b63-4b7f-b763-e14b0c5b58b4","timestamp":"2019-08-10T12:34:03.481Z"}
+{"level":"info","message":"Client disconnect: af7a3e09-2e17-4b7d-9d03-6b94e0bdfdb0","timestamp":"2019-08-10T12:34:49.132Z"}
+{"level":"info","message":"Client disconnect: c280ddd6-4b63-4b7f-b763-e14b0c5b58b4","timestamp":"2019-08-10T12:35:26.834Z"}
+{"level":"info","message":"Create new client: 716d5f13-0d4e-48df-8120-7e9914294b75","timestamp":"2019-08-10T12:35:28.436Z"}
+{"level":"info","message":"Client disconnect: 716d5f13-0d4e-48df-8120-7e9914294b75","timestamp":"2019-08-10T12:35:44.550Z"}
+{"level":"info","message":"Create new client: bf71ba48-836e-48df-b28c-60555543d2d5","timestamp":"2019-08-10T12:35:45.591Z"}
+{"level":"info","message":"Client disconnect: bf71ba48-836e-48df-b28c-60555543d2d5","timestamp":"2019-08-10T12:36:16.922Z"}
+{"level":"info","message":"Create new client: f77b3707-674c-4f69-ad62-bdf9f11f59c2","timestamp":"2019-08-10T12:36:17.551Z"}
+{"level":"info","message":"Client disconnect: f77b3707-674c-4f69-ad62-bdf9f11f59c2","timestamp":"2019-08-10T12:36:33.565Z"}
+{"level":"info","message":"Create new client: ad440225-dcda-4a1c-95ff-52fd5788987e","timestamp":"2019-08-10T12:36:34.355Z"}
+{"level":"info","message":"Create new client: b5e39560-e63c-41cd-9161-fb2acdb30ab9","timestamp":"2019-08-10T12:36:54.612Z"}
+{"level":"info","message":"Client disconnect: ad440225-dcda-4a1c-95ff-52fd5788987e","timestamp":"2019-08-10T12:38:37.209Z"}
+{"level":"info","message":"Create new client: c85c56df-241d-4975-86bd-81590c869c84","timestamp":"2019-08-10T12:38:38.281Z"}
+{"level":"info","message":"Client disconnect: b5e39560-e63c-41cd-9161-fb2acdb30ab9","timestamp":"2019-08-10T12:40:35.060Z"}
