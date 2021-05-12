@@ -17,7 +17,7 @@
     "mjml": "^4.1.2",
     "moment": "^2.24.0",
     "mysql": "^2.16.0",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "parse-dashboard": "1.1.0",
     "parse-server": "^2.8.2",
     "parse-server-gcs-adapter": "^1.1.2",
